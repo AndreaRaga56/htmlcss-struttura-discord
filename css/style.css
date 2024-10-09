@@ -19,14 +19,17 @@
 
  .hdiv.A {
     flex-grow: 1;
+    text-align: start;
  }
 
  .hdiv.B {
     flex-grow: 4;
+    text-align: center;
  }
 
  .hdiv.C {
     flex-grow: 1;
+    text-align: end;
  }
 
  .big-conteiner {
