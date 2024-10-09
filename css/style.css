@@ -38,9 +38,6 @@
     justify-content: center;
  }
 
- .big-conteiner.m25{
-   margin-top: 25px;
- }
 
  .lil-container {
     width: 60%;
@@ -61,17 +58,21 @@
     border-bottom: 4px solid #ADD8E6;
  }
 
- .white-bg {
+ .white-bg-flex {
     background-color: white;
     min-height: 300px;
+    display: flex;
+    align-items: center;
  }
 
- .gray-bg {
+ .gray-bg-flex {
     background-color: #D3D3D3;
     min-height: 300px;
+    display: flex;
+    align-items: center;
  }
 
- .item {
+.item {
     border: 2px dashed black;
     min-height: 250px;
  }
@@ -86,6 +87,10 @@
     flex-grow: 2;
  }
 
+ .item.green{
+   background-color: green;
+   min-height: 500px;
+ }
 
 
  .dgrey-bg {
