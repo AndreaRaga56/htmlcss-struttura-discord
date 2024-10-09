@@ -114,7 +114,7 @@
  }
 
  .dark-grey-bg-flex.A {
-   min-height: 50px;
+   min-height: 70px;
    align-items: flex-end;
  }
 
@@ -133,4 +133,18 @@
 
  hr{
    color: white;
+ }
+
+ .big-conteiner.verde-acqua{
+   background-color: #7FFFD4;
+   align-items: center;
+   min-height: 50px;
+   justify-content: space-between;
+
+ }
+
+ .item.logo-bottone{
+   min-height: 1rem;
+   padding: 3px;
+   background-color: #FFB6C1;
  }
