@@ -67,12 +67,19 @@
 
  .gray-bg-flex {
     background-color: #D3D3D3;
-    min-height: 300px;
     display: flex;
     align-items: center;
  }
 
-.item {
+ .gray-bg-flex.A {
+    min-height: 300px;
+ }
+
+ .gray-bg-flex.B {
+    min-height: 550px;
+ }
+
+ .item {
     border: 2px dashed black;
     min-height: 250px;
  }
@@ -87,13 +94,13 @@
     flex-grow: 2;
  }
 
- .item.green{
-   background-color: green;
-   min-height: 500px;
+ .item.green {
+    background-color: green;
+    min-height: 500px;
+    flex-grow: 1;
  }
 
 
  .dgrey-bg {
     background-color: #23272A;
  }
-
