@@ -101,6 +101,36 @@
  }
 
 
- .dgrey-bg {
+ .dark-grey-bg-flex {
     background-color: #23272A;
+    display: flex;
+    align-items: center;
+ }
+
+ .dark-grey-bg-flex.B {
+   min-height: 330px;
+   align-items: flex-start;
+   padding: 5px;
+ }
+
+ .dark-grey-bg-flex.A {
+   min-height: 50px;
+   align-items: flex-end;
+ }
+
+ .item.coral{
+   background-color: #F08080;
+   min-height: 300px;
+   flex-grow: 3;
+ }
+
+ .item.verde-strano{
+   background-color:#20B2AA;
+   min-height: 300px;
+   flex-grow: 2;
+   border: 2px dashed white;
+ }
+
+ hr{
+   color: white;
  }
